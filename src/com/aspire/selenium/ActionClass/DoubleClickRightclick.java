@@ -23,12 +23,12 @@ public static void main(String[] args) throws InterruptedException {
 	WebElement Rightclick = driver.findElement(By.xpath("//span[contains(@class,'conte')]"));
    
 	act.contextClick(Rightclick).perform();
-	Thread.sleep(2000);
+	Thread.sleep(5000);
  
 // Double click Action 
 	WebElement doubleclick = driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));
 	
-	act.moveToElement(doubleclick).doubleClick().build().perform();
+	act.doubleClick(doubleclick).build().perform();
 	Thread.sleep(5000);
 	
 	driver.quit();

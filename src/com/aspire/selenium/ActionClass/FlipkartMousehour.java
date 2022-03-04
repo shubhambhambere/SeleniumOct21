@@ -25,11 +25,11 @@ public static void main(String[] args) throws IOException, InterruptedException
     Actions act=new Actions(driver);
 	act.moveToElement(fashion).perform();
 	Thread.sleep(2000);
-	 List<WebElement> fashiolist = driver.findElements(By.xpath("//div[contains(@class,'_3_')]//a"));
-//	for(WebElement fs:fashiolist)
-//	{
-//		System.out.println(fs.getText());
-//	}
+	 List<WebElement> fashiolist = driver.findElements(By.xpath("//div[contains(@class,'_3_')]/a"));
+	for(WebElement fs:fashiolist)
+	{
+		System.out.println(fs.getText());
+	}
 	String exp="Men's Top Wear";
 	
 	for(WebElement fashion1:fashiolist)
@@ -42,12 +42,12 @@ public static void main(String[] args) throws IOException, InterruptedException
 			System.out.println("Expected output Printed");
 			break;
 		}
-//		Thread.sleep(2000);
-//		WebElement modelpic = driver.findElement(By.xpath("((//div[@class='_1xHGtK _373qXS'])[1]//img)[1]"));
-//		Thread.sleep(2000);
-//		File source = modelpic.getScreenshotAs(OutputType.FILE);
-//		File Dest=new File("D:\\Java project\\OCT 21\\SeleniumOct21\\ScreenShot");
-//		FileHandler.copy(source, Dest);
+		Thread.sleep(2000);
+		WebElement modelpic = driver.findElement(By.xpath("((//div[@class='_1xHGtK _373qXS'])[1]//img)[1]"));
+		Thread.sleep(2000);
+		File source = modelpic.getScreenshotAs(OutputType.FILE);
+		File Dest=new File("D:\\Java project\\OCT 21\\SeleniumOct21\\ScreenShot");
+		FileHandler.copy(source, Dest);
 		
 	}
 		

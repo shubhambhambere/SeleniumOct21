@@ -8,8 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Pin {
 	
-	@FindBy(xpath="//input[@id='pin']") WebElement pin;
-	@FindBy(xpath="//button[@type='submit']") WebElement ContBtn;
+	@FindBy(xpath="//input[@id='pin']")private  WebElement pin;
+	@FindBy(xpath="//button[@type='submit']") private WebElement ContBtn;
 	
      public Pin(WebDriver driver)
 	{

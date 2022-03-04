@@ -20,6 +20,7 @@ public static void main(String[] args) throws InterruptedException {
 
 	
 	driver.findElement(By.xpath("//button[@id='win1']")).click();
+	driver.findElement(By.xpath("//button[@id='win1']")).click();
 	Set<String> ids = driver.getWindowHandles();
 	for(String id1:ids)
 	{
@@ -33,7 +34,7 @@ public static void main(String[] args) throws InterruptedException {
     driver.switchTo().window(al.get(0));
     //	driver.switchTo().window(id);
     System.out.println(driver.findElement(By.xpath("//label[contains(text(),'Drag and ')]")).getText());
-	
+	Thread.sleep(5000);
    // driver.close();
     driver.quit();
     

@@ -1,6 +1,7 @@
 package com.aspire.selenium.CompatiblityTest;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;

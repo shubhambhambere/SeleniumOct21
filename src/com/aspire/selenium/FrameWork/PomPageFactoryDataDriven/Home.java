@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Home {
-	@FindBy(xpath="//img[@alt='Kite logo']") WebElement logo;
-	@FindBy(xpath="//span[text()='PM']") WebElement Initial;
+	@FindBy(xpath="//img[@alt='Kite logo']")private  WebElement logo;
+	@FindBy(xpath="//span[text()='PM']")private  WebElement Initial;
 	
      public Home(WebDriver driver)
 	{

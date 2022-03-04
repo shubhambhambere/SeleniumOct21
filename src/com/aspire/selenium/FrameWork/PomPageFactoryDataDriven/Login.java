@@ -10,9 +10,9 @@ import org.testng.annotations.Test;
 
 public class Login {
 
-	@FindBy (xpath="//input[@id='userid']") WebElement UN;
-    @FindBy(xpath="//input[@id='password']") WebElement Pas;
-    @FindBy(xpath="//button[@type='submit']") WebElement LoginBtn;
+	@FindBy (xpath="//input[@id='userid']") private WebElement UN;
+    @FindBy(xpath="//input[@id='password']")private  WebElement Pas;
+    @FindBy(xpath="//button[@type='submit']") private WebElement LoginBtn;
     
     public Login(WebDriver driver)
     {

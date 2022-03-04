@@ -19,10 +19,10 @@ public static void main(String[] args) throws InterruptedException {
 	driver.findElement(By.xpath("//input[@type='submit']")).click();
 	List<WebElement> mobilelist = driver.findElements(By.xpath("//div[@class='s-main-slot s-result-list s-search-results sg-row']//h2/a/span"));
 	Thread.sleep(2000);
-	for(WebElement mobile:mobilelist)
-	{
-		System.out.println(mobile.getText());
-	}
+//	for(WebElement mobile:mobilelist)
+//	{
+//		System.out.println(mobile.getText());
+//	}
 	
 	String exp="Samsung Galaxy A12 (Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers";
 	for(WebElement mobile1:mobilelist)

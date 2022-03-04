@@ -23,7 +23,8 @@ public class Practice15
 		act.sendKeys(Keys.ARROW_DOWN).perform();
 		Thread.sleep(2000);
 		}
-		act.doubleClick().perform();
+		Thread.sleep(2000);
+//		act.sendKeys(Keys.ENTER).build().perform();
 		
 	}
 	

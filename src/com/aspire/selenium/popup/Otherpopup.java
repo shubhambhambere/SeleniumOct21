@@ -18,6 +18,7 @@ public static void main(String[] args)
 	Alert alt = driver.switchTo().alert();
 	System.out.println(alt.getText());
 	alt.accept();
+	
 // confirm box
 	
 	driver.findElement(By.xpath("//button[text()='Confirm Box']")).click();

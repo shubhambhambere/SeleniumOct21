@@ -52,16 +52,8 @@ public class AllSelectClassMethod {
        for(WebElement foodlist1:selectfood)
        {
     	   System.out.println(foodlist1.getText());
-       }
-       
-       
-        
-        
-        
-        
-        
-		
-		
+       }                                
+       	
 	}
 	
 	

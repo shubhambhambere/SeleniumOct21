@@ -31,13 +31,14 @@ public class FlipKartMultiWindow
 		}
 		
 		Set<String> ids = driver.getWindowHandles();
-		for(String id:ids)
-		{
-			System.out.println(id);
-		}
+//		for(String id:ids)
+//		{
+//			System.out.println(id);
+//		}
 		Thread.sleep(2000);
 		ArrayList<String> al = new ArrayList<String>(ids);
-		driver.switchTo().window(al.get(3));
+		driver.switchTo().window(al.get(2));
+		Thread.sleep(5000);
 	//  0 index=Default Window,1 index=last window,2 index=SecondLast Window--------
 		List<WebElement> ratings = driver.findElements(By.xpath("//span[@class='_2_R_DZ']/span/span[1]"));
 		for(WebElement rating:ratings)

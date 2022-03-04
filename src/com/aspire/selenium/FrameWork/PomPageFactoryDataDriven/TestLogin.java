@@ -41,7 +41,7 @@ public class TestLogin {
 		lp.Password(PasName);
 		lp.LoginButton();
 		Thread.sleep(4000);
-		
+	
 		Pin pp=new Pin(driver);
 		pp.PinEnter(PinValue);
 		Thread.sleep(2000);

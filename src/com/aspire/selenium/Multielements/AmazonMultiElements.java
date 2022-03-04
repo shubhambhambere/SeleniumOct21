@@ -33,7 +33,7 @@ public static void main(String[] args) throws InterruptedException {
 		{
 			System.out.println("Expected Output printed");
 			temp.click();
-			break;
+	    	break;
 			
 		}
 		
