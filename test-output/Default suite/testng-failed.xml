@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.aspire.selenium.CompatiblityTest.Browser3">
+      <class name="com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass">
         <methods>
-          <include name="FireFoxDriver"/>
+          <include name="LogoVerification"/>
+          <include name="Loginapp"/>
+          <include name="BrowserClose"/>
+          <include name="BrowserLaunch"/>
         </methods>
-      </class> <!-- com.aspire.selenium.CompatiblityTest.Browser3 -->
+      </class> <!-- com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

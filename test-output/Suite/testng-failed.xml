@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="Test1(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Testng(failed)">
     <classes>
-      <class name="com.aspire.selenium.CompatiblityTest.Browser1">
+      <class name="com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNG.TestClass">
         <methods>
-          <include name="EdgeBrowser"/>
+          <include name="verificationOfInitials"/>
+          <include name="browserlaunch"/>
+          <include name="closeBrowser"/>
+          <include name="verificationOfLogo"/>
+          <include name="loginToApp"/>
         </methods>
-      </class> <!-- com.aspire.selenium.CompatiblityTest.Browser1 -->
+      </class> <!-- com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNG.TestClass -->
     </classes>
-  </test> <!-- Test1(failed) -->
-  <test thread-count="5" name="Test3(failed)" parallel="tests">
-    <classes>
-      <class name="com.aspire.selenium.CompatiblityTest.Browser3">
-        <methods>
-          <include name="FireFoxDriver"/>
-        </methods>
-      </class> <!-- com.aspire.selenium.CompatiblityTest.Browser3 -->
-    </classes>
-  </test> <!-- Test3(failed) -->
+  </test> <!-- Testng(failed) -->
 </suite> <!-- Failed suite [Suite] -->

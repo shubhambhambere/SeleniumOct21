@@ -1,54 +1,45 @@
 package com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNG;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-public class Home {
-
-	@FindBy(xpath="//img[@alt='Kite logo']")private WebElement Logo;
-	@FindBy(xpath="//span[text()='PM']")private WebElement INITIALS;
-	public  Home(WebDriver driver )
-	{
-		PageFactory.initElements(driver,this);
-	}
+public class Home{
 	
-
-	
-	//logo verify
-	public void logo(boolean lOGOValue) throws InterruptedException
-	{   
-		boolean logoact=Logo.isDisplayed();
-		if(lOGOValue==logoact)
+    	@FindBy (xpath="//img[@alt='Kite logo']") WebElement actLogo;
+		@FindBy (xpath="//div[@class='avatar']/span") WebElement actInitialName;
+		
+		public Home(WebDriver driver)
 		{
-			System.out.println("LogoDisplay Test Case pass");
+			PageFactory.initElements(driver, this);
 		}
-		else
+		
+		public void verifylogo(boolean exp)
 		{
-			System.out.println("LogoDisplay Test case Fail");
+			boolean act = actLogo.isDisplayed();
+			if(exp==act)
+			{
+				System.out.println("Logo verification Test case is pass");
+			}
+			else
+			{
+				System.out.println("Logo verification Test case is fail");
+			}
 		}
-		Thread.sleep(2000);
-	}
 
-	//initials 
-public void Initials (String InitialValue) throws InterruptedException
-{   String Expectinitial = InitialValue;
-	String ActInitial=INITIALS.getText();
-	System.out.println(ActInitial);
-	if(Expectinitial.equals(ActInitial))
-	{
-		System.out.println("Initials name is TestCase Pass");
-	}
-	else
-	{
-		System.out.println("Initials name is TestCase Fail");
-	}
-	Thread.sleep(2000);
-
-	
-}
-
+	//initial name verify
+		public void verifyInitialName(String ExpIname)
+		{	
+			 String actIname = actInitialName.getText();
+			
+			if(actIname.equals(ExpIname))
+			{
+				System.out.println("Initial name verification Test case pass");
+			}
+			else
+			{
+				System.out.println("Initial name verification Test case fail");
+			}
+		}
 	
 }

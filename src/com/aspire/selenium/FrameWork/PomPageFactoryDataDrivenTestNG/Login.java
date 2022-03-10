@@ -3,47 +3,40 @@ package com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNG;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Login
-{
-	@FindBy(xpath="//input[@id='userid']") private WebElement UN;
-	@FindBy(xpath="//input[@id='password']") private WebElement Pas;
-	@FindBy(xpath="//button[@type='submit']")private WebElement Loginbtn;
+public class Login{
 	
-	public Login(WebDriver driver )
+	@FindBy (xpath="//input[@id='userid']") private WebElement UN;
+	@FindBy (xpath="//input[@id='password']") private WebElement pwd;
+	@FindBy (xpath="//button[@type='submit']") private WebElement loginbtn;
+	
+	public Login(WebDriver driver)
 	{
-		PageFactory.initElements(driver,this);
+		PageFactory.initElements(driver, this);
 	}
 	
-	
-		//Username
-	public void UserName(String UNname) throws InterruptedException
+//Enter UN	
+	public void enterUserName(String username)
 	{
-		UN.sendKeys(UNname);
-		Thread.sleep(2000);
+		UN.sendKeys(username);
 	}
+	//	driver.findElement(By.xpath("//input[@id='userid']")).sendKeys("DP6852");
 
-		//Password
-	public void Password(String Pass) throws InterruptedException
+//enter Pwd
+	public void enterPassword(String password)
 	{
-	 Pas.sendKeys(Pass);	
-	 Thread.sleep(2000);
+		pwd.sendKeys(password);
 	}
-		
-		//login button
-		public void LoginButton()
-		{
-			Loginbtn.click();
-		}
-
-		
-	
-		
-		
+	//		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Pramod@2105");
+	//enter button
+			
+	public void	clickloginButton()
+	{
+		loginbtn.click();	
+		//driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
 	
 	
-
+}

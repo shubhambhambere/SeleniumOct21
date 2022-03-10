@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Failed suite [Suite]]" duration-ms="55045" started-at="2022-03-03T18:49:19 IST" finished-at="2022-03-03T18:50:14 IST">
+  <suite name="Default suite" duration-ms="36920" started-at="2022-03-10T19:17:11 IST" finished-at="2022-03-10T19:17:48 IST">
     <groups>
     </groups>
-    <test name="Test1(failed)(failed)" duration-ms="55045" started-at="2022-03-03T18:49:19 IST" finished-at="2022-03-03T18:50:14 IST">
-      <class name="com.aspire.selenium.CompatiblityTest.Browser1">
-        <test-method status="PASS" signature="EdgeBrowser()[pri:0, instance:com.aspire.selenium.CompatiblityTest.Browser1@51e2adc7]" name="EdgeBrowser" duration-ms="54949" started-at="2022-03-03T18:49:19 IST" finished-at="2022-03-03T18:50:14 IST">
+    <test name="Default test" duration-ms="36920" started-at="2022-03-10T19:17:11 IST" finished-at="2022-03-10T19:17:48 IST">
+      <class name="com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass">
+        <test-method status="PASS" signature="BrowserLaunch()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="BrowserLaunch" is-config="true" duration-ms="13856" started-at="2022-03-10T19:17:11 IST" finished-at="2022-03-10T19:17:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EdgeBrowser -->
-      </class> <!-- com.aspire.selenium.CompatiblityTest.Browser1 -->
-    </test> <!-- Test1(failed)(failed) -->
-  </suite> <!-- Failed suite [Failed suite [Suite]] -->
+        </test-method> <!-- BrowserLaunch -->
+        <test-method status="PASS" signature="Loginapp()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="Loginapp" is-config="true" duration-ms="5858" started-at="2022-03-10T19:17:25 IST" finished-at="2022-03-10T19:17:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginapp -->
+        <test-method status="PASS" signature="InintialVerification()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="InintialVerification" duration-ms="7890" started-at="2022-03-10T19:17:31 IST" finished-at="2022-03-10T19:17:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InintialVerification -->
+        <test-method status="PASS" signature="DashBoard(org.testng.ITestResult)[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="DashBoard" is-config="true" duration-ms="4282" started-at="2022-03-10T19:17:39 IST" finished-at="2022-03-10T19:17:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InintialVerification status=SUCCESS method=TestClass.InintialVerification()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoard -->
+        <test-method status="PASS" signature="LogoVerification()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="LogoVerification" duration-ms="809" started-at="2022-03-10T19:17:43 IST" finished-at="2022-03-10T19:17:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoVerification -->
+        <test-method status="PASS" signature="DashBoard(org.testng.ITestResult)[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="DashBoard" is-config="true" duration-ms="1976" started-at="2022-03-10T19:17:44 IST" finished-at="2022-03-10T19:17:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogoVerification status=SUCCESS method=TestClass.LogoVerification()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoard -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="BrowserClose" is-config="true" duration-ms="2040" started-at="2022-03-10T19:17:46 IST" finished-at="2022-03-10T19:17:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
