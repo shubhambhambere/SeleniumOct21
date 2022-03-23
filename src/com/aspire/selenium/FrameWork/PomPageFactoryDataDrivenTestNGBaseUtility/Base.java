@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
     public class Base 
 {
 	
-	   static WebDriver driver=null;
+	   static WebDriver driver;
 	public static void BrowserOpen()
 	{
 

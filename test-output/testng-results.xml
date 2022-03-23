@@ -1,55 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Initial]]>
+    </line>
+    <line>
+      <![CDATA[Profile]]>
+    </line>
+    <line>
+      <![CDATA[Pin]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[M2]]>
+    </line>
+    <line>
+      <![CDATA[Password]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36920" started-at="2022-03-10T19:17:11 IST" finished-at="2022-03-10T19:17:48 IST">
+  <suite name="Default suite" duration-ms="173" started-at="2022-03-12T20:04:17 IST" finished-at="2022-03-12T20:04:18 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36920" started-at="2022-03-10T19:17:11 IST" finished-at="2022-03-10T19:17:48 IST">
-      <class name="com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass">
-        <test-method status="PASS" signature="BrowserLaunch()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="BrowserLaunch" is-config="true" duration-ms="13856" started-at="2022-03-10T19:17:11 IST" finished-at="2022-03-10T19:17:25 IST">
+    <test name="Default test" duration-ms="173" started-at="2022-03-12T20:04:17 IST" finished-at="2022-03-12T20:04:18 IST">
+      <class name="com.aspire.selenium.Practice.TestClass">
+        <test-method status="PASS" signature="Initial()[pri:0, instance:com.aspire.selenium.Practice.TestClass@5f3a4b84]" name="Initial" is-config="true" duration-ms="21" started-at="2022-03-12T20:04:17 IST" finished-at="2022-03-12T20:04:18 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Initial]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- BrowserLaunch -->
-        <test-method status="PASS" signature="Loginapp()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="Loginapp" is-config="true" duration-ms="5858" started-at="2022-03-10T19:17:25 IST" finished-at="2022-03-10T19:17:31 IST">
+        </test-method> <!-- Initial -->
+        <test-method status="PASS" signature="Profile()[pri:0, instance:com.aspire.selenium.Practice.TestClass@5f3a4b84]" name="Profile" is-config="true" duration-ms="0" started-at="2022-03-12T20:04:18 IST" finished-at="2022-03-12T20:04:18 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Profile]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Loginapp -->
-        <test-method status="PASS" signature="InintialVerification()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="InintialVerification" duration-ms="7890" started-at="2022-03-10T19:17:31 IST" finished-at="2022-03-10T19:17:39 IST">
+        </test-method> <!-- Profile -->
+        <test-method status="PASS" signature="Pin()[pri:0, instance:com.aspire.selenium.Practice.TestClass@5f3a4b84]" name="Pin" is-config="true" duration-ms="1" started-at="2022-03-12T20:04:18 IST" finished-at="2022-03-12T20:04:18 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Pin]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- InintialVerification -->
-        <test-method status="PASS" signature="DashBoard(org.testng.ITestResult)[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="DashBoard" is-config="true" duration-ms="4282" started-at="2022-03-10T19:17:39 IST" finished-at="2022-03-10T19:17:43 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=InintialVerification status=SUCCESS method=TestClass.InintialVerification()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Pin -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.aspire.selenium.Practice.TestClass@5f3a4b84]" name="login" duration-ms="22" started-at="2022-03-12T20:04:18 IST" finished-at="2022-03-12T20:04:18 IST">
           <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- DashBoard -->
-        <test-method status="PASS" signature="LogoVerification()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="LogoVerification" duration-ms="809" started-at="2022-03-10T19:17:43 IST" finished-at="2022-03-10T19:17:44 IST">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:com.aspire.selenium.Practice.TestClass@5f3a4b84]" name="m2" is-config="true" duration-ms="0" started-at="2022-03-12T20:04:18 IST" finished-at="2022-03-12T20:04:18 IST">
           <reporter-output>
+            <line>
+              <![CDATA[M2]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- LogoVerification -->
-        <test-method status="PASS" signature="DashBoard(org.testng.ITestResult)[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="DashBoard" is-config="true" duration-ms="1976" started-at="2022-03-10T19:17:44 IST" finished-at="2022-03-10T19:17:46 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LogoVerification status=SUCCESS method=TestClass.LogoVerification()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- m2 -->
+        <test-method status="PASS" signature="Password()[pri:0, instance:com.aspire.selenium.Practice.TestClass@5f3a4b84]" name="Password" is-config="true" duration-ms="1" started-at="2022-03-12T20:04:18 IST" finished-at="2022-03-12T20:04:18 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Password]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- DashBoard -->
-        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass@371a67ec]" name="BrowserClose" is-config="true" duration-ms="2040" started-at="2022-03-10T19:17:46 IST" finished-at="2022-03-10T19:17:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserClose -->
-      </class> <!-- com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass -->
+        </test-method> <!-- Password -->
+      </class> <!-- com.aspire.selenium.Practice.TestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

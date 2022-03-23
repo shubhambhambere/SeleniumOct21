@@ -52,8 +52,8 @@ public class TestLogin {
 		hp.logoVerify(logoexp);
 		hp.initial(inintialexpaname);
 		
-		Thread.sleep(5000);
-		driver.quit();
+//		Thread.sleep(5000);
+//		driver.quit();
 		
 	}
 	

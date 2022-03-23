@@ -5,7 +5,9 @@
     <classes>
       <class name="com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility1.TestClass">
         <methods>
+          <include name="DashBoard"/>
           <include name="LogoVerification"/>
+          <include name="InintialVerification"/>
           <include name="Loginapp"/>
           <include name="BrowserClose"/>
           <include name="BrowserLaunch"/>

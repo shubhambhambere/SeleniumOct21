@@ -25,9 +25,6 @@ import com.aspire.selenium.FrameWork.PomPageFactoryDataDrivenTestNGBaseUtility.U
 
 public class TestClass extends BaseClass
 {
-	
-	
-	
 	Login lp;
 	 Pin  pp;
 	 Home hp;
@@ -92,15 +89,4 @@ public class TestClass extends BaseClass
 			driver.quit();
 		}
 		 
-		 
-		
-		 
-		
-		   
-		 
-	     
-	 
-	
-		
-	
 }
